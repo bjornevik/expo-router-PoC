@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "try-expo-router",
+    "scheme": "expo-router-try",
     "slug": "try-expo-router",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -25,6 +26,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
